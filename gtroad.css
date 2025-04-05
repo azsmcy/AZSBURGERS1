@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: Arial, sans-serif;
+     */
+     font-family: 'Montserrat', sans-serif;
+
+    color: white;
+    background-image: url('AdobeStock_1118080443_Preview\ \(1\)-processed\(lightpdf.com\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+nav a:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+
+}
+nav :active{
+    opacity: 1;
+    }
+
+.logo {
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+p {
+    font-size: 21px;
+    font-weight: bold;
+    font-weight: 50;
+
+}
+.se{
+    color: white;
+     
+
+}
+.What{
+    font-size: 26px;
+    font-weight: 550;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center; 
+    
+}
+.what1{
+    padding-left: 350px;
+    padding-right: 350px;
+    display: flex;
+    justify-content: center; 
+}
+.p1{
+    padding-left: 450px;
+    padding-bottom: 20px;
+}
+
+.img2{
+    background-image: url('1000_F_890374644_kdftJ2XWq0EU2faLKGEXwfOACoC0FJFJ-processed\(lightpdf.com\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.p2{
+    font-size: 39px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 176px;
+    font-weight: 600;
+}
+.p3{
+    display: flex;
+    justify-content: center;
+}
+.con{
+    background-color: ();
+    color: black;
+   border-radius: 30px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 26px;
+    padding-left: 26px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 630px;
+    margin-top: 60px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+.con:hover{
+    opacity: 0.8;
+    }
+  .con:active{
+  opacity: 0.5;
+  }
+@media (max-width: 768px) {
+    nav{
+        background-color: white;
+    }
+    .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+    .menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    color: black;
+}
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        top: 50px;
+        left: 0;
+        padding-top: 170px;
+        padding-bottom: 316px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .nav-links a {
+   
+    font-size: 20px;
+}
+
+    .nav-links li {
+        padding: 15px;
+    }
+
+    .nav-links a {
+        color: black;
+    }
+
+    #menu-toggle:checked ~ .menu-icon + .nav-links {
+        display: flex;
+    }
+    h1 {
+    font-size: 49px;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+p {
+    font-size: 10.5x;
+    font-weight: bold;
+    font-weight: 50;
+
+}
+.hi{
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: 50;
+}
+.what1 {
+  
+    display:  flex;
+    justify-content: center; 
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.p1{
+    display:  flex;
+    justify-content: center; 
+    padding-left: 0.1px;
+    padding-right: 110px;
+}
+.con{
+    background-color: ();
+    color: black;
+   border-radius: 30px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 26px;
+    padding-left: 26px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 200px;
+    margin-top: 60px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+}
